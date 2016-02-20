@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LocalDebuggerCommandArguments>-u admin -p fl123456 -ip 192.168.1.154 -port 8000 -c 1 -st "2016-2-18 12:30:00" -et "2016-2-18 13:00:00"</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-u admin -p fl123456 -ip 192.168.1.154 -port 8000 -c 4 -st "2016-2-18 12:30:00" -et "2016-2-18 13:04:00" -path "D:/video/1652.mp4"</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>-u admin -p fl123456 -ip 192.168.1.154 -port 8000 -c 4 -st "2016-2-18 12:30:00" -et "2016-2-18 13:00:00"</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-u admin -p fl123456 -ip 192.168.1.154 -port 8000 -c 4 -st "2016-2-18 12:30:00" -et "2016-2-18 13:04:00" -path "D:/video/mytest.mp4"</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
